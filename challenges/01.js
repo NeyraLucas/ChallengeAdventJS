@@ -7,8 +7,7 @@
  * @returns {string[]} An array with the unique filtered gifts
  */
 function filterGifts(gifts) {
-    const filterItems = gifts.filter((e) => !(e.includes('#')))
-    return filterItems;
+    return gifts.filter((gift) => !gift.includes('#'));
 }
 
 
